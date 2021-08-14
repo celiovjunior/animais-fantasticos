@@ -1,8 +1,9 @@
-const div = document.querySelector('[data-cor]');
+import initTabNav from "./modules/tabnav.js";
+import initAccordion from "./modules/accordion.js";
+import initScroll from "./modules/scroll-anima.js";
+import initScrollAnima from "./modules/scroll.js";
 
-div.dataset.height = 1000;
-delete div.dataset.width;
-
-div.dataset.totalHeight = 2000
-
-console.log(div.dataset)
+initTabNav();
+initAccordion();
+initScroll();
+initScrollAnima();
