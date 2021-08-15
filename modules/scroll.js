@@ -5,10 +5,13 @@ export default function initScrollAnima(){
     if(sections.length) {
         function animaScroll() {
             sections.forEach((section) => {
-                const sectionTop = section.getBoundingClientRect().top - windowPercent
+                const sectionTop = section.getBoundingClientRect().top;
+                const isSectionVisible = (sectionTop - windowPercent < 0)
         
-                if(sectionTop < 0) {
+                if(isSectionVisible) {
                     section.classList.add('ativo')
+                } else if (section.classList.contains('ativo')) {
+                    section.classList.remove('ativo')
                 }
             })
         }
