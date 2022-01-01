@@ -8,11 +8,8 @@ export default function initScrollAnima(){
                 const sectionTop = section.getBoundingClientRect().top;
                 const isSectionVisible = (sectionTop - windowPercent < 0)
         
-                if(isSectionVisible) {
+                if(isSectionVisible) 
                     section.classList.add('ativo')
-                } else if (section.classList.contains('ativo')) {
-                    section.classList.remove('ativo')
-                }
             })
         }
         
