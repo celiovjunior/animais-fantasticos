@@ -1,0 +1,54 @@
+:root {
+  --color-black: #141414;
+  --color-gray: #525252;
+  --color-primary: #25e2f0;
+  --color-primary-light: rgb(103, 227, 236);
+  --color-primary-lighter: rgb(171, 243, 248);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitle {
+  font-size: 8rem;
+  text-transform: uppercase;
+  line-height: 1;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitle {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}

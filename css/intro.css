@@ -1,0 +1,38 @@
+.intro {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.intro h1 {
+  font-size: 4.5rem;
+  line-height: 4rem;
+  margin-bottom: 30px;
+}
+
+.intro span {
+  color: var(--color-primary);
+}
+
+.intro p {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}
+
+@media (max-width: 840px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    font-size: 2rem;
+  }
+}
