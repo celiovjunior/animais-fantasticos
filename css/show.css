@@ -34,6 +34,14 @@
   position: relative;
 }
 
+.js-accordion {
+  opacity: 0;
+}
+
+.js-accordion.acc-animation {
+  opacity: 1;
+}
+
 .fashion-week::before {
   content: "";
   display: block;
