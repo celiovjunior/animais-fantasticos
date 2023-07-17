@@ -1,4 +1,4 @@
-<h1 aling="center">👠 Modelview 👠 </h1>
+<h1 align="center">👠 Modelview 👠 </h1>
 
 ![landing page demo](modelviewLandingPage.png)
 
