@@ -1,6 +1,6 @@
 <h1 align="center">👠 Modelview 👠 </h1>
 
-![landing page demo](modelviewLandingPage.png)
+![landing page demo](preview.png)
 
 ## About:
 
