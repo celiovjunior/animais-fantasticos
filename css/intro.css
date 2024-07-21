@@ -1,3 +1,9 @@
+#avatar {
+  max-width: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
 .intro {
   max-width: 1200px;
   padding: 40px 20px;
