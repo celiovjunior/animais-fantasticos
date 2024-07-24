@@ -1,6 +1,7 @@
 :root {
   --color-black: #141414;
   --color-gray: #525252;
+  --color-gray-light: #858585;
   --color-primary: #25e2f0;
   --color-primary-light: rgb(103, 227, 236);
   --color-primary-lighter: rgb(171, 243, 248);

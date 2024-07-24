@@ -4,6 +4,13 @@
   border-radius: 50%;
 }
 
+#call-to-action {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1rem;
+  color: var(--color-gray-light);
+  font-size: 16px;
+}
+
 .intro {
   max-width: 1200px;
   padding: 40px 20px;

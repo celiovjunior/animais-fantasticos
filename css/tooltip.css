@@ -5,8 +5,8 @@
     box-shadow: 0 0 0 2px #25e2f0, 0 0 0 6px rgba(0,0,0,0.6);
     padding: 0.5rem;
     color: white;
-    font-family: monospace;
-    font-weight: bold;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-weight: bold; */
     font-size: .875rem;
     max-width: 150px;
     border-radius: 2px;
