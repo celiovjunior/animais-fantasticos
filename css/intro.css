@@ -8,10 +8,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 1rem;
   color: var(--color-gray-light);
-  font-size: 16px;
+  font-size: 14px;
 }
+
 #call-to-action a {
-  font-weight: bold;
   color: var(--color-primary);
   text-decoration: none;
 }
