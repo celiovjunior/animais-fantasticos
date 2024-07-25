@@ -1,6 +1,7 @@
 export function initImgToAnchor() {
     function makeImageLink(imgId, url) {
         var img = document.getElementById(imgId);
+        img.style.cursor = 'pointer';
         img.addEventListener('click', function() {
             window.open(url, '_blank');
         })
