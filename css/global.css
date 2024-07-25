@@ -1,6 +1,7 @@
 :root {
   --color-black: #141414;
   --color-gray: #525252;
+  --color-gray-light: #858585;
   --color-primary: #25e2f0;
   --color-primary-light: rgb(103, 227, 236);
   --color-primary-lighter: rgb(171, 243, 248);
@@ -35,6 +36,8 @@ ul {
 img {
   max-width: 100%;
   display: block;
+  /* border-radius: 50%; */
+  /* border: 2px solid black; */
 }
 
 .subtitle {
@@ -54,6 +57,12 @@ img {
   opacity: 1;
   transition: 0.3s;
   transform: translate3d(0px, 0, 0);
+}
+
+i {
+  color: var(--color-primary);
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 @media (max-width: 800px) {
