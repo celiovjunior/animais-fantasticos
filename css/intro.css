@@ -41,16 +41,18 @@
   color: var(--color-gray);
 }
 
-@media (max-width: 840px) {
-  .intro h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 800) {
+@media (max-width: 758px) {
   .intro {
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .intro img {
+    width: 200px;
+  }
+  .intro h1 {
+    font-size: 1.5rem;
+    text-align: center;
   }
 }

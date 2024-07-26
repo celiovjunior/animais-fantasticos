@@ -47,7 +47,7 @@
   width: 100%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 758px) {
   .header {
     flex-direction: column;
     gap: 40px;
